@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240,242,245);
+}
+
+
+ .rightSide
+{
+    display: inline;
+    position: absolute;
+    top: 175px;
+    left: 240px;
+}   
+    
+
+.about{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.logo
+{
+    width: 301px;
+    height: 106px;
+}
+
+
+.forms{
+    position: relative;
+    top: 127px;
+    width: 390px;
+    border: 1px solid rgb(240,242,245);
+    border-radius: 8px;
+    background-color: white;
+    left: 850px;
+    height: 350px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 3px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.forms input
+{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 330px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border:1px solid rgb(214, 210, 210);
+}
+
+
+.login
+{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 365px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border:none;
+    background-color: rgb(34,125,242);
+    color: white;
+
+}
+
+
+.login:hover{
+    background-color: rgb(36, 120, 231);
+}
+
+
+.forgotPassword
+{
+    text-decoration: none;
+    color: rgb(36, 120, 231);
+    margin-left: 135px;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+
+
+.theline
+{
+    width: 350px;
+    margin-top: 20px;
+    color:rgb(214, 210, 210);
+}
+
+
+.createAccount
+{
+    text-decoration: none;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border:none;
+    background-color: rgb(66,183,42);
+    color: white;  
+
+}
